@@ -1,4 +1,4 @@
-package com.vaneilson.itut.unit
+package com.vandeilson.itut.unit
 
 import org.junit.jupiter.api.Test
 
@@ -6,7 +6,7 @@ class GenericTest {
 
     @Test
     fun `hello world unit test`() {
-        print("Hello, this is my Unit Test")
+        println("Hello, this is my Unit Test")
     }
 
 }

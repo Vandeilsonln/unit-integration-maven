@@ -1,4 +1,4 @@
-package com.vaneilson.itut
+package com.vandeilson.itut
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

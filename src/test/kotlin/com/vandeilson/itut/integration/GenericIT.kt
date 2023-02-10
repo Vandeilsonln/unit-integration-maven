@@ -1,4 +1,4 @@
-package com.vaneilson.itut.integration
+package com.vandeilson.itut.integration
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
@@ -8,6 +8,6 @@ class GenericIT {
 
     @Test
     fun `hello world integration test`() {
-        print("Hello, this is my Integration Test")
+        println("Hello, this is my Integration Test")
     }
 }
