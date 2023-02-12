@@ -8,7 +8,7 @@
 		<version>3.0.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.vaneilson</groupId>
+	<groupId>com.vandeilson</groupId>
 	<artifactId>itut</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>itut</name>
@@ -16,7 +16,6 @@
 	<properties>
 		<java.version>17</java.version>
 		<kotlin.version>1.7.22</kotlin.version>
-		<skipUTs>${skip.ut}</skipUTs>
 	</properties>
 	<dependencies>
 		<dependency>
