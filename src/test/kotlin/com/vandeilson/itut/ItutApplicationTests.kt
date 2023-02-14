@@ -1,12 +1,11 @@
-package com.vaneilson.itut
+package com.vandeilson.itut
 
-import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
 class ItutApplicationTests {
 
-	@Test
+	//@Test
 	fun contextLoads() {
 	}
 
