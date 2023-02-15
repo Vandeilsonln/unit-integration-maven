@@ -38,7 +38,7 @@ jobs:
             - name: Unit Tests
               run: mvn test
 
-    unit-integration-test:
+    integration-test:
         needs: build-app
         runs-on: ubuntu-latest
         container:
