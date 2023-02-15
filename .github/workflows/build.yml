@@ -36,7 +36,7 @@ jobs:
                   cache: 'maven'
 
             - name: Unit Tests
-              run: mvn clean test
+              run: mvn test
 
     unit-integration-test:
         needs: build-app
@@ -52,4 +52,4 @@ jobs:
                   cache: 'maven'
 
             - name: Integration Tests
-              run: mvn clean verify
+              run: mvn verify -Dskip.ut=true
